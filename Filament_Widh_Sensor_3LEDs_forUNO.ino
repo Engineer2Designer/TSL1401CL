@@ -89,7 +89,6 @@ void helpMessage()
    Serial.println(F("Version : Feb 13 2015"));
 }
 
-
 // ledNo: from 1 ~ 2
 // value : 0 ~ 255
 void setLED(int ledNo, byte val)
@@ -636,7 +635,5 @@ double processImage(int led)
   {
     widthsubpixel=0;
   }
-
-  return widthsubpixel;
+  return widthsu
 }
-
